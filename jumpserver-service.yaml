@@ -9,6 +9,7 @@ spec:
   ports:
     - name: ssh
       port: 22
+      targetPort: 2222
   type: "LoadBalancer"
   selector:
     app: sshd-jumpserver
